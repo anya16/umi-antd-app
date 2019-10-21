@@ -1,6 +1,10 @@
 import styles from './index.css';
-
+import {Button} from 'antd-mobile'
+import router from 'umi/router'
 export default function() {
+  const onTodoList = ()=>{
+    router.push('/todoList')
+  }
   return (
     <div className={styles.normal}>
       <div className={styles.welcome} />
@@ -10,6 +14,9 @@ export default function() {
           <a href="https://umijs.org/guide/getting-started.html">
             Getting Started
           </a>
+        </li>
+        <li onClick={onTodoList}>
+          <Button type="primary">todoList</Button>
         </li>
       </ul>
     </div>
