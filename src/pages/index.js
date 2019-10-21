@@ -15,8 +15,8 @@ export default function() {
             Getting Started
           </a>
         </li>
-        <li onClick={onTodoList}>
-          <Button type="primary">todoList</Button>
+        <li onClick={onTodoList} className={styles.ignore}>
+          <Button type="primary" >todoList</Button>
         </li>
       </ul>
     </div>

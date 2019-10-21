@@ -21,3 +21,7 @@
 .list code {
   background: #f7f7f7;
 }
+.ignore {
+  border:10px solid red;
+  font-size: 28px;
+}
