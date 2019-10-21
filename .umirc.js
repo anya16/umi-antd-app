@@ -4,7 +4,7 @@ import px2rem from 'postcss-plugin-px2rem';
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
-  // hash:true,
+  hash:true,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
